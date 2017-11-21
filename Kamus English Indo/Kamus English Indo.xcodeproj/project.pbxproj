@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E951CA1FB452B800623EC7 /* TambahDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E951C91FB452B800623EC7 /* TambahDataViewController.swift */; };
+		C4FCA1B31FB4025D009BEA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCA1B21FB4025D009BEA8F /* AppDelegate.swift */; };
+		C4FCA1B51FB4025D009BEA8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCA1B41FB4025D009BEA8F /* ViewController.swift */; };
+		C4FCA1B81FB4025D009BEA8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FCA1B61FB4025D009BEA8F /* Main.storyboard */; };
+		C4FCA1BA1FB4025D009BEA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FCA1B91FB4025D009BEA8F /* Assets.xcassets */; };
+		C4FCA1BD1FB4025D009BEA8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FCA1BB1FB4025D009BEA8F /* LaunchScreen.storyboard */; };
+		C4FCA1C81FB4025E009BEA8F /* Kamus_English_IndoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCA1C71FB4025E009BEA8F /* Kamus_English_IndoTests.swift */; };
+		C4FCA1D31FB4025E009BEA8F /* Kamus_English_IndoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCA1D21FB4025E009BEA8F /* Kamus_English_IndoUITests.swift */; };
+		C4FCA1E11FB40320009BEA8F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCA1E01FB40320009BEA8F /* TableViewCell.swift */; };
+		C4FCA1E31FB4032D009BEA8F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCA1E21FB4032D009BEA8F /* TableViewController.swift */; };
+		C4FCA1E51FB4033A009BEA8F /* Kamus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCA1E41FB4033A009BEA8F /* Kamus.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4FCA1C41FB4025E009BEA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FCA1A71FB4025D009BEA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4FCA1AE1FB4025D009BEA8F;
+			remoteInfo = "Kamus English Indo";
+		};
+		C4FCA1CF1FB4025E009BEA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FCA1A71FB4025D009BEA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4FCA1AE1FB4025D009BEA8F;
+			remoteInfo = "Kamus English Indo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E951C91FB452B800623EC7 /* TambahDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahDataViewController.swift; sourceTree = "<group>"; };
+		C4FCA1AF1FB4025D009BEA8F /* Kamus English Indo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kamus English Indo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FCA1B21FB4025D009BEA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4FCA1B41FB4025D009BEA8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4FCA1B71FB4025D009BEA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4FCA1B91FB4025D009BEA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4FCA1BC1FB4025D009BEA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4FCA1BE1FB4025D009BEA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FCA1C31FB4025E009BEA8F /* Kamus English IndoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kamus English IndoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FCA1C71FB4025E009BEA8F /* Kamus_English_IndoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kamus_English_IndoTests.swift; sourceTree = "<group>"; };
+		C4FCA1C91FB4025E009BEA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FCA1CE1FB4025E009BEA8F /* Kamus English IndoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kamus English IndoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FCA1D21FB4025E009BEA8F /* Kamus_English_IndoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kamus_English_IndoUITests.swift; sourceTree = "<group>"; };
+		C4FCA1D41FB4025E009BEA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FCA1E01FB40320009BEA8F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C4FCA1E21FB4032D009BEA8F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C4FCA1E41FB4033A009BEA8F /* Kamus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kamus.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4FCA1AC1FB4025D009BEA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FCA1C01FB4025E009BEA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FCA1CB1FB4025E009BEA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4FCA1A61FB4025D009BEA8F = {
+			isa = PBXGroup;
+			children = (
+				C4FCA1B11FB4025D009BEA8F /* Kamus English Indo */,
+				C4FCA1C61FB4025E009BEA8F /* Kamus English IndoTests */,
+				C4FCA1D11FB4025E009BEA8F /* Kamus English IndoUITests */,
+				C4FCA1B01FB4025D009BEA8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4FCA1B01FB4025D009BEA8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FCA1AF1FB4025D009BEA8F /* Kamus English Indo.app */,
+				C4FCA1C31FB4025E009BEA8F /* Kamus English IndoTests.xctest */,
+				C4FCA1CE1FB4025E009BEA8F /* Kamus English IndoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FCA1B11FB4025D009BEA8F /* Kamus English Indo */ = {
+			isa = PBXGroup;
+			children = (
+				C4FCA1B21FB4025D009BEA8F /* AppDelegate.swift */,
+				C4FCA1B41FB4025D009BEA8F /* ViewController.swift */,
+				C4FCA1B61FB4025D009BEA8F /* Main.storyboard */,
+				C4FCA1B91FB4025D009BEA8F /* Assets.xcassets */,
+				C4FCA1BB1FB4025D009BEA8F /* LaunchScreen.storyboard */,
+				C4FCA1BE1FB4025D009BEA8F /* Info.plist */,
+				C4FCA1E01FB40320009BEA8F /* TableViewCell.swift */,
+				C4FCA1E21FB4032D009BEA8F /* TableViewController.swift */,
+				C4FCA1E41FB4033A009BEA8F /* Kamus.swift */,
+				C4E951C91FB452B800623EC7 /* TambahDataViewController.swift */,
+			);
+			path = "Kamus English Indo";
+			sourceTree = "<group>";
+		};
+		C4FCA1C61FB4025E009BEA8F /* Kamus English IndoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4FCA1C71FB4025E009BEA8F /* Kamus_English_IndoTests.swift */,
+				C4FCA1C91FB4025E009BEA8F /* Info.plist */,
+			);
+			path = "Kamus English IndoTests";
+			sourceTree = "<group>";
+		};
+		C4FCA1D11FB4025E009BEA8F /* Kamus English IndoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4FCA1D21FB4025E009BEA8F /* Kamus_English_IndoUITests.swift */,
+				C4FCA1D41FB4025E009BEA8F /* Info.plist */,
+			);
+			path = "Kamus English IndoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4FCA1AE1FB4025D009BEA8F /* Kamus English Indo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FCA1D71FB4025E009BEA8F /* Build configuration list for PBXNativeTarget "Kamus English Indo" */;
+			buildPhases = (
+				C4FCA1AB1FB4025D009BEA8F /* Sources */,
+				C4FCA1AC1FB4025D009BEA8F /* Frameworks */,
+				C4FCA1AD1FB4025D009BEA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kamus English Indo";
+			productName = "Kamus English Indo";
+			productReference = C4FCA1AF1FB4025D009BEA8F /* Kamus English Indo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4FCA1C21FB4025E009BEA8F /* Kamus English IndoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FCA1DA1FB4025E009BEA8F /* Build configuration list for PBXNativeTarget "Kamus English IndoTests" */;
+			buildPhases = (
+				C4FCA1BF1FB4025E009BEA8F /* Sources */,
+				C4FCA1C01FB4025E009BEA8F /* Frameworks */,
+				C4FCA1C11FB4025E009BEA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FCA1C51FB4025E009BEA8F /* PBXTargetDependency */,
+			);
+			name = "Kamus English IndoTests";
+			productName = "Kamus English IndoTests";
+			productReference = C4FCA1C31FB4025E009BEA8F /* Kamus English IndoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4FCA1CD1FB4025E009BEA8F /* Kamus English IndoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FCA1DD1FB4025E009BEA8F /* Build configuration list for PBXNativeTarget "Kamus English IndoUITests" */;
+			buildPhases = (
+				C4FCA1CA1FB4025E009BEA8F /* Sources */,
+				C4FCA1CB1FB4025E009BEA8F /* Frameworks */,
+				C4FCA1CC1FB4025E009BEA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FCA1D01FB4025E009BEA8F /* PBXTargetDependency */,
+			);
+			name = "Kamus English IndoUITests";
+			productName = "Kamus English IndoUITests";
+			productReference = C4FCA1CE1FB4025E009BEA8F /* Kamus English IndoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4FCA1A71FB4025D009BEA8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Gw;
+				TargetAttributes = {
+					C4FCA1AE1FB4025D009BEA8F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C4FCA1C21FB4025E009BEA8F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4FCA1AE1FB4025D009BEA8F;
+					};
+					C4FCA1CD1FB4025E009BEA8F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4FCA1AE1FB4025D009BEA8F;
+					};
+				};
+			};
+			buildConfigurationList = C4FCA1AA1FB4025D009BEA8F /* Build configuration list for PBXProject "Kamus English Indo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4FCA1A61FB4025D009BEA8F;
+			productRefGroup = C4FCA1B01FB4025D009BEA8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4FCA1AE1FB4025D009BEA8F /* Kamus English Indo */,
+				C4FCA1C21FB4025E009BEA8F /* Kamus English IndoTests */,
+				C4FCA1CD1FB4025E009BEA8F /* Kamus English IndoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4FCA1AD1FB4025D009BEA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FCA1BD1FB4025D009BEA8F /* LaunchScreen.storyboard in Resources */,
+				C4FCA1BA1FB4025D009BEA8F /* Assets.xcassets in Resources */,
+				C4FCA1B81FB4025D009BEA8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FCA1C11FB4025E009BEA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FCA1CC1FB4025E009BEA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4FCA1AB1FB4025D009BEA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FCA1E11FB40320009BEA8F /* TableViewCell.swift in Sources */,
+				C4E951CA1FB452B800623EC7 /* TambahDataViewController.swift in Sources */,
+				C4FCA1E51FB4033A009BEA8F /* Kamus.swift in Sources */,
+				C4FCA1B51FB4025D009BEA8F /* ViewController.swift in Sources */,
+				C4FCA1B31FB4025D009BEA8F /* AppDelegate.swift in Sources */,
+				C4FCA1E31FB4032D009BEA8F /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FCA1BF1FB4025E009BEA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FCA1C81FB4025E009BEA8F /* Kamus_English_IndoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FCA1CA1FB4025E009BEA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FCA1D31FB4025E009BEA8F /* Kamus_English_IndoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4FCA1C51FB4025E009BEA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4FCA1AE1FB4025D009BEA8F /* Kamus English Indo */;
+			targetProxy = C4FCA1C41FB4025E009BEA8F /* PBXContainerItemProxy */;
+		};
+		C4FCA1D01FB4025E009BEA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4FCA1AE1FB4025D009BEA8F /* Kamus English Indo */;
+			targetProxy = C4FCA1CF1FB4025E009BEA8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4FCA1B61FB4025D009BEA8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FCA1B71FB4025D009BEA8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4FCA1BB1FB4025D009BEA8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FCA1BC1FB4025D009BEA8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4FCA1D51FB4025E009BEA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4FCA1D61FB4025E009BEA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4FCA1D81FB4025E009BEA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus English Indo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Kamus-English-Indo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4FCA1D91FB4025E009BEA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus English Indo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Kamus-English-Indo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4FCA1DB1FB4025E009BEA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus English IndoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Kamus-English-IndoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamus English Indo.app/Kamus English Indo";
+			};
+			name = Debug;
+		};
+		C4FCA1DC1FB4025E009BEA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus English IndoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Kamus-English-IndoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamus English Indo.app/Kamus English Indo";
+			};
+			name = Release;
+		};
+		C4FCA1DE1FB4025E009BEA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus English IndoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Kamus-English-IndoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kamus English Indo";
+			};
+			name = Debug;
+		};
+		C4FCA1DF1FB4025E009BEA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus English IndoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Kamus-English-IndoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kamus English Indo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4FCA1AA1FB4025D009BEA8F /* Build configuration list for PBXProject "Kamus English Indo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FCA1D51FB4025E009BEA8F /* Debug */,
+				C4FCA1D61FB4025E009BEA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FCA1D71FB4025E009BEA8F /* Build configuration list for PBXNativeTarget "Kamus English Indo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FCA1D81FB4025E009BEA8F /* Debug */,
+				C4FCA1D91FB4025E009BEA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FCA1DA1FB4025E009BEA8F /* Build configuration list for PBXNativeTarget "Kamus English IndoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FCA1DB1FB4025E009BEA8F /* Debug */,
+				C4FCA1DC1FB4025E009BEA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FCA1DD1FB4025E009BEA8F /* Build configuration list for PBXNativeTarget "Kamus English IndoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FCA1DE1FB4025E009BEA8F /* Debug */,
+				C4FCA1DF1FB4025E009BEA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4FCA1A71FB4025D009BEA8F /* Project object */;
+}
